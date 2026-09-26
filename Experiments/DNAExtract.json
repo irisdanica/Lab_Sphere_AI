@@ -1,0 +1,127 @@
+{
+  "id": 1,
+  "experiment": "DNA Extraction",
+  "category": "Molecular Biology",
+  "difficulty": "Beginner",
+  "estimatedTime": "15 mins",
+  "aim": "To extract DNA from biological cells (such as strawberries) and observe the white thread-like DNA precipitate with the naked eye.",
+  "theory": "DNA (Deoxyribonucleic Acid) is the hereditary material in organisms, residing inside the cell nucleus. In plant cells, DNA is encased by both a rigid cellulose cell wall, a phospholipid plasma membrane, and a nuclear envelope. During extraction: (1) physical mashing breaks the plant tissue and cell walls; (2) detergent dissolves the lipid bilayers of cell and nuclear membranes; (3) salt (NaCl) provides sodium ions that neutralize the negatively charged phosphate backbone of DNA, causing molecules to coalesce and separating proteins; (4) ice-cold alcohol precipitates the DNA because nucleic acids are insoluble in cold non-polar alcohol.",
+  "materials": [
+    "Fresh biological sample (strawberries or bananas)",
+    "Liquid detergent / dishwashing solution (dissolves cell membranes)",
+    "Sodium chloride / Table salt (neutralizes DNA charge)",
+    "Distilled water",
+    "Funnel & cheesecloth or filter paper",
+    "Glass beaker & stirring rod",
+    "Test tube & rack",
+    "Ice-cold 95% Ethanol or Isopropyl alcohol",
+    "Glass spooling rod or inoculating loop"
+  ],
+  "procedure": [
+    "Place the sample in a container and crush it into a smooth, lump-free puree to break cell walls.",
+    "Add 10 mL of detergent solution and 1/2 teaspoon of salt to 50 mL of water to prepare the extraction buffer.",
+    "Pour extraction buffer into the mashed sample and stir gently for 5 minutes without creating froth.",
+    "Filter the mixture through cheesecloth/funnel into a beaker to remove insoluble cell debris.",
+    "Transfer approximately 5-10 mL of the clear filtered liquid into a clean test tube.",
+    "Slowly layer an equal volume of ice-cold ethanol down the inside wall of the tilted test tube.",
+    "Observe cloudy, white, thread-like DNA precipitates at the alcohol-water interface.",
+    "Carefully spool the precipitated DNA strands using a clean glass rod."
+  ],
+  "precautions": [
+    "Use ice-cold alcohol (keep in freezer before use); warm alcohol will dissolve the DNA.",
+    "Stir gently when adding detergent to avoid excessive foam and bubbling.",
+    "Pour ethanol slowly along the tube wall to form two distinct layers rather than mixing.",
+    "Ensure complete filtration so cell debris does not contaminate the DNA precipitate.",
+    "Wear safety goggles and lab gloves throughout the procedure."
+  ],
+  "learningObjectives": [
+    "Understand the structure and function of cellular membranes in plant cells.",
+    "Explain the biochemical role of detergent in lipid bilayer lysis.",
+    "Describe how ionic shielding by Na+ facilitates nucleic acid aggregation.",
+    "Demonstrate precipitation of biomolecules via polarity differences in ethanol."
+  ],
+  "result": "White, gelatinous, thread-like strands of DNA precipitate at the interface between the aqueous filtrate and the upper alcohol layer, confirming successful genomic DNA isolation.",
+  "quiz": [
+    {
+      "question": "What is the primary role of detergent in the DNA extraction procedure?",
+      "options": [
+        "To dissolve the lipid bilayers of cell and nuclear membranes",
+        "To synthesize new complementary DNA strands",
+        "To dye the DNA precipitate white",
+        "To change the pH of the solution to acidic"
+      ],
+      "answer": "To dissolve the lipid bilayers of cell and nuclear membranes",
+      "explanation": "Detergents contain amphipathic molecules that disrupt and dissolve the phospholipid bilayer of both the outer plasma membrane and the nuclear envelope, releasing intracellular contents."
+    },
+    {
+      "question": "Why is sodium chloride (salt) added during the extraction process?",
+      "options": [
+        "To neutralize the negative charges of DNA and help strands aggregate",
+        "To prevent the biological sample from spoiling",
+        "To speed up the evaporation of ethanol",
+        "To digest the ribosomal RNA"
+      ],
+      "answer": "To neutralize the negative charges of DNA and help strands aggregate",
+      "explanation": "Na+ ions from salt neutralize the negatively charged phosphate groups of DNA molecules, reducing electrostatic repulsion so the strands can aggregate and precipitate."
+    },
+    {
+      "question": "Why must the alcohol used for precipitation be ice-cold?",
+      "options": [
+        "DNA is less soluble in cold alcohol, maximizing yield and precipitation speed",
+        "To kill any lingering bacteria in the strawberry",
+        "Cold alcohol increases the temperature of the reaction",
+        "Warm alcohol would freeze the DNA strands instantly"
+      ],
+      "answer": "DNA is less soluble in cold alcohol, maximizing yield and precipitation speed",
+      "explanation": "DNA is polar and insoluble in cold ethanol. Chilling the alcohol decreases nucleic acid solubility and preserves DNA integrity by inhibiting DNase enzymes."
+    },
+    {
+      "question": "Why are strawberries especially popular for classroom DNA extraction?",
+      "options": [
+        "They are octoploid (8 copies of each chromosome), providing abundant DNA",
+        "They do not have cell membranes",
+        "Their DNA is colored bright red",
+        "Their DNA does not require alcohol to precipitate"
+      ],
+      "answer": "They are octoploid (8 copies of each chromosome), providing abundant DNA",
+      "explanation": "Cultivated strawberries (Fragaria ananassa) are octoploid (8 sets of chromosomes), meaning each cell contains a very large amount of genomic DNA compared to diploid cells."
+    },
+    {
+      "question": "Where does the DNA precipitate appear in the test tube?",
+      "options": [
+        "At the interface between the aqueous filtrate and the upper alcohol layer",
+        "At the very bottom as a dense rock-like pellet",
+        "Floating as gas bubbles in the air above the tube",
+        "Dissolved invisibly into the detergent"
+      ],
+      "answer": "At the interface between the aqueous filtrate and the upper alcohol layer",
+      "explanation": "Because ethanol is less dense than the aqueous extract, it floats on top. DNA precipitates at the boundary (interface) between the two liquid phases."
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why is detergent necessary?",
+      "answer": "Detergent contains surfactants that break down the lipid membranes of the cell and the nucleus, allowing the DNA to escape into the solution."
+    },
+    {
+      "question": "Why is alcohol used in DNA extraction?",
+      "answer": "DNA is soluble in water due to its polar phosphate backbone, but it is insoluble in alcohol (especially cold ethanol). Adding alcohol forces DNA to precipitate out of solution."
+    },
+    {
+      "question": "Can DNA be extracted from other fruits or human cells?",
+      "answer": "Yes! Bananas, kiwis, onions, and human cheek cells or saliva can all be used using the same detergent-salt-alcohol extraction principles."
+    },
+    {
+      "question": "What happens if the alcohol is warm?",
+      "answer": "If alcohol is warm, DNA remains more soluble, resulting in significantly lower yield or failure to form visible strands, and cellular DNases might degrade the DNA."
+    },
+    {
+      "question": "Why does the extracted DNA appear as white slimy threads?",
+      "answer": "When millions of microscopic DNA molecules precipitate and clump together, their macromolecular structures scatter visible light, appearing as white mucus-like or thread-like strands."
+    },
+    {
+      "question": "What is the purpose of filtering the mixture?",
+      "answer": "Filtering through cheesecloth or filter paper separates intact cellular debris, cell wall fragments, and seeds from the liquid filtrate containing dissolved DNA and soluble proteins."
+    }
+  ]
+}

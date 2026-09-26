@@ -1,0 +1,84 @@
+{
+  "id": 3,
+  "experiment": "Gram Staining",
+  "aim": "To differentiate bacteria into Gram-positive and Gram-negative groups using Gram staining.",
+  "theory": "Gram staining is a differential staining technique based on bacterial cell wall structure. Gram-positive bacteria retain the crystal violet stain and appear purple, while Gram-negative bacteria lose the stain during decolorization and take up the counterstain, appearing pink.",
+  "materials": [
+    "Bacterial culture",
+    "Glass slide",
+    "Inoculating loop",
+    "Crystal violet",
+    "Gram's iodine",
+    "Alcohol or acetone",
+    "Safranin",
+    "Distilled water",
+    "Microscope",
+    "Immersion oil"
+  ],
+  "procedure": [
+    "Prepare a bacterial smear.",
+    "Heat-fix the smear.",
+    "Apply crystal violet for 1 minute.",
+    "Wash with water.",
+    "Apply Gram's iodine for 1 minute.",
+    "Wash with water.",
+    "Decolorize with alcohol for 10–20 seconds.",
+    "Wash immediately.",
+    "Counterstain with safranin for 30–60 seconds.",
+    "Wash, dry, and observe under a microscope."
+  ],
+  "precautions": [
+    "Use a thin smear.",
+    "Avoid over-decolorization.",
+    "Use fresh bacterial cultures.",
+    "Heat-fix gently."
+  ],
+  "result": {
+    "gram_positive": "Purple",
+    "gram_negative": "Pink or Red"
+  },
+  "quiz": [
+    {
+      "question": "What is the primary stain used in Gram staining?",
+      "answer": "Crystal violet"
+    },
+    {
+      "question": "Which reagent acts as the mordant?",
+      "answer": "Gram's iodine"
+    },
+    {
+      "question": "Which bacteria appear purple?",
+      "answer": "Gram-positive bacteria"
+    },
+    {
+      "question": "Which bacteria appear pink?",
+      "answer": "Gram-negative bacteria"
+    },
+    {
+      "question": "Why is alcohol used?",
+      "answer": "To decolorize Gram-negative bacteria."
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why do Gram-positive bacteria remain purple?",
+      "answer": "Their thick peptidoglycan wall traps the crystal violet-iodine complex."
+    },
+    {
+      "question": "What is the role of Gram's iodine?",
+      "answer": "It acts as a mordant and fixes the stain."
+    },
+    {
+      "question": "What happens if over-decolorization occurs?",
+      "answer": "Gram-positive bacteria may appear Gram-negative."
+    },
+    {
+      "question": "Why is safranin used?",
+      "answer": "It counterstains Gram-negative bacteria pink."
+    },
+    {
+      "question": "Where is Gram staining used?",
+      "answer": "Clinical microbiology laboratories for bacterial identification."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": 5,
+  "experiment": "Enzyme-Linked Immunosorbent Assay (ELISA)",
+  "category": "Immunology",
+  "difficulty": "Advanced",
+  "estimatedTime": "25 mins",
+  "aim": "To detect and quantify the presence of a specific antigen or antibody in a clinical patient sample using an indirect Enzyme-Linked Immunosorbent Assay (ELISA).",
+  "theory": "ELISA (Enzyme-Linked Immunosorbent Assay) is a plate-based diagnostic assay developed by Eva Engvall and Peter Perlmann in 1971 to detect antibodies, peptides, proteins, and hormones. In an indirect ELISA: (1) Antigen is coated and immobilized onto the polystyrene surface of 96-well microtiter plates via hydrophobic interactions. (2) A non-reacting protein blocking buffer (e.g. Bovine Serum Albumin / BSA) is added to coat any remaining bare plastic, preventing non-specific background binding. (3) The patient serum sample containing primary antibodies is added; if specific antibodies are present, they bind tightly to the immobilized antigen. (4) An enzyme-conjugated secondary antibody (such as goat anti-human IgG linked to Horseradish Peroxidase, HRP) is added, recognizing and binding the primary antibody. (5) Stringent wash cycles with PBST (Phosphate Buffered Saline + Tween-20) remove unbound antibodies between steps. (6) A chromogenic substrate (such as 3,3',5,5'-Tetramethylbenzidine / TMB) is introduced; HRP catalyzes a color change from colorless to deep blue. (7) An acidic stop solution (1 M H2SO4) halts the enzyme reaction, turning the solution yellow. The optical density at 450 nm (OD450) is measured via spectrophotometry and correlates directly with antigen/antibody concentration.",
+  "materials": [
+    "96-well polystyrene microtiter plate",
+    "Target Antigen solution for well coating",
+    "Carbonate-bicarbonate coating buffer (pH 9.6)",
+    "Blocking buffer: 1% Bovine Serum Albumin (BSA) in PBS",
+    "Washing buffer: PBST (Phosphate-Buffered Saline + 0.05% Tween-20)",
+    "Positive Control serum (known high antibody titer)",
+    "Negative Control serum (healthy unexposed serum)",
+    "Patient Test Serum Sample",
+    "Primary detection antibody specific to target antigen",
+    "Secondary antibody conjugated to Horseradish Peroxidase (HRP)",
+    "TMB (3,3',5,5'-tetramethylbenzidine) chromogenic liquid substrate",
+    "Stop solution (1 M Sulfuric Acid, H2SO4)",
+    "Multichannel & single-channel micropipettes (10–200 µL) and tips",
+    "Microplate washer / aspiration basin",
+    "Microplate Spectrophotometer Reader (OD 450 nm)"
+  ],
+  "procedure": [
+    "Dilute antigen in carbonate coating buffer and pipette 100 µL into designated microplate wells.",
+    "Incubate the microtiter plate overnight at 4°C to allow antigen to passively adsorb to the plastic well surface.",
+    "Invert plate and tap over paper towels to discard coating solution, then wash each well 3 times with PBST.",
+    "Add 200 µL of 1% BSA blocking buffer to each well and incubate for 1 hour at room temperature to block non-specific binding sites.",
+    "Aspirate blocking solution and wash wells 3 times with PBST.",
+    "Add 100 µL of Negative Control (Well A1), Positive Control (Well B1), and Patient Sample (Well C1), then incubate at 37°C for 1 hour to allow primary antibody-antigen binding.",
+    "Wash wells thoroughly 4 times with PBST to remove all unbound antibodies.",
+    "Add 100 µL of HRP-conjugated secondary antibody to each well and incubate in the dark for 45 minutes.",
+    "Wash 4 times with PBST to completely clear free enzyme-antibody conjugate.",
+    "Add 100 µL of TMB chromogenic substrate solution to each well and watch for blue color development catalyzed by active HRP.",
+    "Add 50 µL of 1 M H2SO4 stop solution; notice immediate color shift from blue to yellow.",
+    "Insert the 96-well plate into the Microplate Reader and measure absorbance at 450 nm to quantify relative antibody concentration."
+  ],
+  "precautions": [
+    "Always perform washing steps rigorously; inadequate washing leaves free HRP conjugate causing false-positive signals.",
+    "Protect TMB substrate from direct light; photo-oxidation generates blue background color before use.",
+    "Do not let microplate wells dry out between wash and addition steps; dried proteins denature and lose binding affinity.",
+    "Always run blank, negative, and positive controls in duplicate to validate assay specificity and baseline readings.",
+    "Wear protective eyewear when pipetting 1 M H2SO4 stop solution; it is a strong corrosive acid."
+  ],
+  "learningObjectives": [
+    "Understand the biochemical principles of enzyme-linked immunosorbent assays.",
+    "Explain the role of blocking buffer in preventing non-specific background signals.",
+    "Describe the enzymatic conversion of TMB by HRP and subsequent color shift with stop solution.",
+    "Interpret optical density (OD450) readouts to diagnose patient infection or antibody presence."
+  ],
+  "result": "Wells containing antigen-antibody complexes turn vivid yellow upon addition of stop solution. Spectrophotometric reading at 450 nm: Blank = 0.04 OD, Negative Control = 0.08 OD, Positive Control = 1.84 OD, Patient Sample = 1.42 OD. The patient sample OD greatly exceeds the diagnostic cutoff (>0.25 OD), confirming a positive diagnosis for target antibodies.",
+  "quiz": [
+    {
+      "question": "What is the primary function of adding a Blocking Buffer (such as BSA)?",
+      "options": [
+        "To bind to unoccupied plastic sites so antibodies don't attach non-specifically",
+        "To break the covalent bonds of the antigen",
+        "To speed up the color conversion of TMB substrate",
+        "To kill any living viruses present in the well"
+      ],
+      "answer": "To bind to unoccupied plastic sites so antibodies don't attach non-specifically",
+      "explanation": "Polystyrene binds proteins non-specifically. Bovine Serum Albumin (BSA) saturates open plastic surface areas, ensuring antibodies only adhere if they specifically bind their target antigen."
+    },
+    {
+      "question": "What happens if the wash steps between antibody additions are skipped or done poorly?",
+      "options": [
+        "Unbound enzyme-linked antibodies remain, leading to false-positive color in all wells",
+        "The microplate will crack under pressure",
+        "The reaction will turn completely colorless permanently",
+        "Antibodies will precipitate into crystals"
+      ],
+      "answer": "Unbound enzyme-linked antibodies remain, leading to false-positive color in all wells",
+      "explanation": "If residual secondary antibody is not washed away, its conjugated HRP enzyme will convert TMB to blue regardless of whether antigen was present, creating widespread false positives."
+    },
+    {
+      "question": "What enzyme is commonly conjugated to the secondary antibody in ELISA?",
+      "options": [
+        "Horseradish Peroxidase (HRP)",
+        "DNA Polymerase",
+        "Amylase",
+        "Cellulase"
+      ],
+      "answer": "Horseradish Peroxidase (HRP)",
+      "explanation": "Horseradish Peroxidase (HRP) or Alkaline Phosphatase (AP) are widely used enzyme reporters that catalytically convert chromogenic substrates into easily measurable colored products."
+    },
+    {
+      "question": "Why does adding Stop Solution (H2SO4) change the solution color from blue to yellow?",
+      "options": [
+        "Acid lowers pH, protonating the diimine oxidized TMB and stopping HRP activity",
+        "Sulfuric acid bleaches the primary antibody",
+        "The blue dye evaporates when heated by acid",
+        "H2SO4 destroys the plastic wells"
+      ],
+      "answer": "Acid lowers pH, protonating the diimine oxidized TMB and stopping HRP activity",
+      "explanation": "Sulfuric acid denatures the HRP enzyme (stopping catalysis) and protonates the oxidized TMB dye product, causing an optical shift that absorbs at 450 nm (yellow)."
+    },
+    {
+      "question": "At what wavelength is absorbance typically measured after adding stop solution in a TMB ELISA?",
+      "options": [
+        "450 nm",
+        "260 nm",
+        "600 nm",
+        "850 nm"
+      ],
+      "answer": "450 nm",
+      "explanation": "The protonated, stopped yellow product of TMB has a sharp absorbance peak at 450 nm, read with a standard microplate spectrophotometer."
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "What is the difference between direct, indirect, and sandwich ELISA?",
+      "answer": "Direct ELISA uses a primary antibody directly conjugated to enzyme. Indirect ELISA uses an unlabeled primary antibody followed by an enzyme-labeled secondary antibody. Sandwich ELISA captures antigen between two specific antibodies (capture and detection)."
+    },
+    {
+      "question": "Why is washing critical in ELISA?",
+      "answer": "Washing removes unbound antigens and antibodies. If unbound enzyme-linked antibodies remain in the wells, they will react with substrate and create high non-specific background or false positives."
+    },
+    {
+      "question": "What is the role of the secondary antibody?",
+      "answer": "The secondary antibody recognizes the Fc constant region of the primary antibody and carries an enzyme (like HRP) that produces the detectable colorimetric signal."
+    },
+    {
+      "question": "Why is TMB substrate used?",
+      "answer": "TMB (tetramethylbenzidine) is a sensitive chromogenic substrate that turns deep blue when oxidized by HRP in the presence of hydrogen peroxide."
+    },
+    {
+      "question": "How are results quantified?",
+      "answer": "A microplate reader measures Optical Density (OD) at 450 nm. High OD corresponds to higher concentrations of the target analyte in the sample."
+    },
+    {
+      "question": "Where is ELISA used in medical diagnostics?",
+      "answer": "ELISA is the gold standard for HIV antibody screening, hepatitis testing, COVID-19 antibody surveillance, allergy testing, pregnancy tests (hCG), and cytokine quantification."
+    }
+  ]
+}

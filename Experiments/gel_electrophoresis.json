@@ -1,0 +1,134 @@
+{
+  "id": 4,
+  "experiment": "Gel Electrophoresis",
+  "category": "Molecular Biology",
+  "difficulty": "Intermediate",
+  "estimatedTime": "20 mins",
+  "aim": "To separate, visualize, and determine the size of DNA fragments using agarose gel electrophoresis under an electric field.",
+  "theory": "Agarose gel electrophoresis separates charged biomolecules based on size and charge through a porous matrix. Because the sugar-phosphate backbone of DNA carries a uniform negative charge at neutral pH, DNA fragments migrate toward the positive anode (red electrode) when placed in an electric field. The agarose gel functions as a molecular sieve: smaller DNA fragments pass through the microscopic pores more quickly and travel further than larger, bulkier fragments. A standard DNA ladder of known molecular weights is run concurrently to allow precise size determination. Fluorescent DNA stains (such as Ethidium Bromide or GelGreen) intercalate between nucleic acid base pairs, allowing distinct fluorescent bands to be visualized and photographed under UV or blue light transillumination.",
+  "materials": [
+    "Molecular biology grade Agarose powder",
+    "1X TAE (Tris-Acetate-EDTA) or 1X TBE electrophoresis running buffer",
+    "Gel casting tray, rubber casting dams, and sample comb (wells former)",
+    "Horizontal electrophoresis chamber with platinum wire electrodes and safety lid",
+    "DC Power Supply unit with adjustable voltage (80–120V) and timer",
+    "DNA molecular weight standard / DNA Ladder (100 bp – 1,000 bp)",
+    "DNA test samples (e.g. PCR amplicons and digested plasmid fragments)",
+    "6X DNA Loading Dye (Bromophenol blue, Xylene cyanol, and glycerol)",
+    "Fluorescent nucleic acid stain (GelGreen / Ethidium Bromide)",
+    "Adjustable micropipette (0.5–10 µL) and tips",
+    "UV / Blue-light transilluminator or gel documentation imaging system"
+  ],
+  "procedure": [
+    "Weigh 1.0 g of agarose powder and add to 100 mL of 1X TAE buffer to make a 1.0% agarose solution.",
+    "Heat mixture in a microwave until agarose is completely melted, clear, and homogeneous.",
+    "Allow the molten agarose to cool to approximately 55°C, then add 5 µL of fluorescent DNA stain.",
+    "Assemble the gel casting tray with rubber dams, insert the sample comb, and pour the molten agarose.",
+    "Let the gel polymerize undisturbed for 25–30 minutes until it becomes firm and opaque.",
+    "Gently pull the comb vertically out of the gel to reveal sharp, clean sample loading wells.",
+    "Submerge the gel tray into the electrophoresis tank and flood with 1X TAE buffer until the gel is covered by 2–3 mm.",
+    "Load 5 µL of the reference DNA ladder into Well 1 using a precision micropipette.",
+    "Carefully load 8 µL of DNA Sample A into Well 2, and 8 µL of DNA Sample B into Well 3.",
+    "Attach the chamber safety lid, connecting the black wire to the negative cathode and the red wire to the positive anode.",
+    "Switch on the power supply at 100 Volts; verify electrical current by observing tiny oxygen and hydrogen bubbles at the electrodes.",
+    "Run for 45 minutes until the blue tracking dye travels 70–80% down the gel.",
+    "Turn off power, transfer gel tray to the UV transilluminator, turn on UV light, and photograph the fluorescent DNA bands."
+  ],
+  "precautions": [
+    "Always run DNA toward the positive (red) electrode ('Run to Red'); reversing polarity causes DNA to run off into the buffer.",
+    "Do not puncture the bottom of the well with the pipette tip when loading samples.",
+    "Handle ethidium bromide or fluorescent stains with gloves; they are mutagenic intercalating agents.",
+    "Always wear UV safety glasses or use an orange acrylic shield when viewing gels under UV light.",
+    "Ensure buffer fully submerges the gel; dry gels overheat and cause distorted or smiling bands."
+  ],
+  "learningObjectives": [
+    "Understand how an electric field separates negatively charged nucleic acids.",
+    "Explain the relationship between agarose gel pore size (percentage) and DNA fragment migration rate.",
+    "Demonstrate proper micropipetting and submarine well-loading technique.",
+    "Analyze DNA fragment sizes by calibrating band distances against a molecular weight ladder."
+  ],
+  "result": "Sharp fluorescent DNA bands are resolved under UV illumination. The DNA Ladder displays bands at 1000 bp, 750 bp, 500 bp, and 250 bp. PCR Sample 1 displays a single prominent amplicon at 500 bp, while digested Sample 2 resolves into two distinct fragments of 750 bp and 250 bp.",
+  "quiz": [
+    {
+      "question": "Toward which electrode does DNA migrate during gel electrophoresis, and why?",
+      "options": [
+        "Toward the positive anode (+), because the phosphate backbone gives DNA a negative charge",
+        "Toward the negative cathode (-), because nitrogenous bases are positively charged",
+        "Toward whichever electrode has higher water temperature",
+        "DNA stays stationary while the agarose gel moves"
+      ],
+      "answer": "Toward the positive anode (+), because the phosphate backbone gives DNA a negative charge",
+      "explanation": "At neutral pH, each phosphate group in DNA's backbone carries a negative charge. Opposites attract, so DNA migrates toward the positively charged anode (+ / red electrode)."
+    },
+    {
+      "question": "Which DNA fragments migrate fastest and travel farthest through the agarose gel?",
+      "options": [
+        "Smaller DNA fragments, because they maneuver easily through the gel pores",
+        "Larger DNA fragments, because they have more electric charge",
+        "Circular plasmids always move faster than any linear fragments",
+        "All fragments move at the exact same velocity"
+      ],
+      "answer": "Smaller DNA fragments, because they maneuver easily through the gel pores",
+      "explanation": "The agarose matrix acts like a sieve. Smaller fragments experience less frictional resistance through the pores and travel further in a given time than bulky high-molecular-weight fragments."
+    },
+    {
+      "question": "What is the primary function of a DNA ladder loaded in the first well?",
+      "options": [
+        "To provide reference bands of known sizes to estimate the base-pair length of experimental samples",
+        "To clean out leftover bacteria from the gel wells",
+        "To provide extra electrical conductance across the chamber",
+        "To stop the power supply when the run is finished"
+      ],
+      "answer": "To provide reference bands of known sizes to estimate the base-pair length of experimental samples",
+      "explanation": "A DNA ladder contains pre-measured DNA fragments of standardized lengths (e.g. 100, 250, 500, 750, 1000 bp) against which the size of unknown sample bands can be determined."
+    },
+    {
+      "question": "Why is glycerol or sucrose included in the sample loading dye?",
+      "options": [
+        "To increase sample density so it sinks to the bottom of the well instead of diffusing into buffer",
+        "To chemically bind and dissolve the agarose",
+        "To serve as food for the DNA molecules",
+        "To prevent the power supply from short-circuiting"
+      ],
+      "answer": "To increase sample density so it sinks to the bottom of the well instead of diffusing into buffer",
+      "explanation": "Glycerol increases the density of the sample solution relative to the surrounding running buffer, causing the sample to sink neatly into the submarine well."
+    },
+    {
+      "question": "How are DNA bands visualized after the electrophoresis run?",
+      "options": [
+        "Using fluorescent dyes that intercalate between DNA base pairs and glow under UV/blue light",
+        "By smelling the ozone produced by the electrophoresis chamber",
+        "By holding the gel up to regular sunlight with a magnifying glass",
+        "DNA bands are naturally colored bright red and need no stain"
+      ],
+      "answer": "Using fluorescent dyes that intercalate between DNA base pairs and glow under UV/blue light",
+      "explanation": "DNA itself is transparent in visible light. Fluorescent dyes (such as ethidium bromide or GelGreen) slip between stacked bases and emit bright visible light when excited by UV or blue light."
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why do DNA fragments move through the gel?",
+      "answer": "DNA molecules have a negatively charged phosphate backbone. In an electrical field, they are repelled by the negative cathode and attracted toward the positive anode."
+    },
+    {
+      "question": "Why do smaller fragments move faster than larger ones?",
+      "answer": "The agarose gel forms a microscopic three-dimensional mesh of pores. Smaller DNA molecules navigate through the matrix with less steric hindrance, migrating faster and farther."
+    },
+    {
+      "question": "What happens if you connect the electrodes backward?",
+      "answer": "If polarity is inverted, the negatively charged DNA will run backward out of the top of the wells and be lost in the buffer tank."
+    },
+    {
+      "question": "What is the purpose of TAE or TBE running buffer?",
+      "answer": "The buffer contains ions that conduct electrical current and maintains a stable pH so DNA retains its uniform negative charge without hydrolyzing."
+    },
+    {
+      "question": "What determines what percentage agarose gel to make?",
+      "answer": "Higher percentage gels (e.g., 2.0%) have smaller pores and are ideal for separating small DNA fragments (100-500 bp), whereas lower percentage gels (e.g., 0.7%) have wider pores suited for large fragments (1,000-10,000 bp)."
+    },
+    {
+      "question": "What are the bubbles seen in the buffer during the run?",
+      "answer": "The electric current causes electrolysis of water: hydrogen gas bubbles form at the cathode (-), while oxygen gas bubbles generate at the anode (+)."
+    }
+  ]
+}

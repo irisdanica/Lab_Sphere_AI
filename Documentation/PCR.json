@@ -1,0 +1,81 @@
+{
+  "id": 2,
+  "experiment": "Polymerase Chain Reaction (PCR)",
+  "aim": "To amplify a specific DNA sequence using Polymerase Chain Reaction (PCR).",
+  "theory": "PCR is a molecular biology technique used to produce millions of copies of a DNA fragment. It uses repeated heating and cooling cycles involving denaturation, primer annealing, and DNA extension.",
+  "materials": [
+    "DNA template",
+    "Forward primer",
+    "Reverse primer",
+    "Taq DNA Polymerase",
+    "dNTPs",
+    "PCR buffer",
+    "MgCl2",
+    "Nuclease-free water",
+    "PCR tubes",
+    "Thermal cycler"
+  ],
+  "procedure": [
+    "Prepare the PCR reaction mixture.",
+    "Add DNA template.",
+    "Add primers.",
+    "Add Taq polymerase.",
+    "Place the tubes in the thermal cycler.",
+    "Run denaturation at 95°C.",
+    "Run annealing at 50–65°C.",
+    "Run extension at 72°C.",
+    "Repeat for 25–35 cycles.",
+    "Analyze PCR products using gel electrophoresis."
+  ],
+  "precautions": [
+    "Wear gloves.",
+    "Avoid contamination.",
+    "Use sterile pipette tips.",
+    "Keep reagents on ice."
+  ],
+  "result": "The target DNA fragment is successfully amplified.",
+  "quiz": [
+    {
+      "question": "What is the full form of PCR?",
+      "answer": "Polymerase Chain Reaction"
+    },
+    {
+      "question": "Which enzyme is used in PCR?",
+      "answer": "Taq DNA Polymerase"
+    },
+    {
+      "question": "What is denaturation?",
+      "answer": "Separation of double-stranded DNA into single strands."
+    },
+    {
+      "question": "Why are primers required?",
+      "answer": "They define the DNA region to be amplified."
+    },
+    {
+      "question": "At what temperature does DNA extension occur?",
+      "answer": "72°C"
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why is Taq polymerase used?",
+      "answer": "It is heat-resistant and remains active during repeated heating cycles."
+    },
+    {
+      "question": "How many copies of DNA are produced?",
+      "answer": "Millions to billions after multiple PCR cycles."
+    },
+    {
+      "question": "Why are primers necessary?",
+      "answer": "They determine the specific DNA sequence to be amplified."
+    },
+    {
+      "question": "What happens during denaturation?",
+      "answer": "The DNA strands separate."
+    },
+    {
+      "question": "Where is PCR used?",
+      "answer": "Disease diagnosis, forensic science, genetic testing, and biotechnology research."
+    }
+  ]
+}

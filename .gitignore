@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+Backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Expo & Web build artifacts
+Frontend/.expo/
+Frontend/dist/
+Frontend/web-build/
+dist/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local backups / archives
+Frontend_backup/
+Frontend.zip

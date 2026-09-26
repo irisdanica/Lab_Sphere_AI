@@ -1,0 +1,80 @@
+{
+  "id": 1,
+  "experiment": "DNA Extraction",
+  "aim": "To extract DNA from biological cells and observe the white thread-like DNA.",
+  "theory": "DNA (Deoxyribonucleic Acid) is the genetic material present in all living organisms. It is found inside the nucleus of cells. During DNA extraction, the cell membrane and nuclear membrane are broken down using detergent, proteins are removed using salt, and alcohol is added to precipitate the DNA, making it visible.",
+  "materials": [
+    "Sample (banana, strawberry, onion, or cheek cells)",
+    "Dishwashing liquid",
+    "Salt",
+    "Distilled water",
+    "Filter paper",
+    "Funnel",
+    "Test tube",
+    "Ice-cold ethanol or isopropyl alcohol",
+    "Beaker",
+    "Glass rod"
+  ],
+  "procedure": [
+    "Crush the sample into a smooth paste.",
+    "Mix with salt solution.",
+    "Add detergent and stir gently.",
+    "Filter the mixture using filter paper.",
+    "Collect the filtrate.",
+    "Slowly pour cold alcohol along the side of the test tube.",
+    "Observe white DNA strands at the alcohol layer.",
+    "Remove DNA using a glass rod."
+  ],
+  "precautions": [
+    "Use ice-cold alcohol.",
+    "Avoid vigorous shaking.",
+    "Use clean glassware.",
+    "Pour alcohol slowly.",
+    "Wear gloves."
+  ],
+  "result": "White thread-like DNA strands are observed, indicating successful DNA extraction.",
+  "quiz": [
+    {
+      "question": "What does DNA stand for?",
+      "answer": "Deoxyribonucleic Acid"
+    },
+    {
+      "question": "Why is detergent used?",
+      "answer": "To break the cell and nuclear membranes."
+    },
+    {
+      "question": "Why is salt added?",
+      "answer": "To help separate proteins from DNA."
+    },
+    {
+      "question": "Why should alcohol be cold?",
+      "answer": "It improves DNA precipitation."
+    },
+    {
+      "question": "Which part of the cell contains DNA?",
+      "answer": "Nucleus"
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why is detergent necessary?",
+      "answer": "It breaks down the cell membrane and nuclear membrane to release DNA."
+    },
+    {
+      "question": "Why is alcohol used?",
+      "answer": "DNA is insoluble in alcohol, so it precipitates and becomes visible."
+    },
+    {
+      "question": "Can DNA be extracted from fruits?",
+      "answer": "Yes. Fruits like strawberries and bananas are commonly used."
+    },
+    {
+      "question": "What happens if alcohol is warm?",
+      "answer": "DNA precipitation becomes less effective."
+    },
+    {
+      "question": "Why is DNA white?",
+      "answer": "Large amounts of DNA scatter light, making it appear white."
+    }
+]
+}

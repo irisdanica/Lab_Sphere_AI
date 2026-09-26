@@ -1,0 +1,132 @@
+{
+  "id": 2,
+  "experiment": "Polymerase Chain Reaction (PCR)",
+  "category": "Molecular Biology",
+  "difficulty": "Intermediate",
+  "estimatedTime": "20 mins",
+  "aim": "To amplify a specific target DNA sequence by millions of times in vitro using the Polymerase Chain Reaction (PCR) technique.",
+  "theory": "PCR is an indispensable molecular biology technique developed by Kary Mullis in 1983. It mimics cellular DNA replication in vitro across repetitive thermal cycles, typically consisting of three discrete temperature steps: (1) Denaturation at 94–98°C, which breaks the hydrogen bonds between complementary base pairs to yield single-stranded DNA templates; (2) Annealing at 50–65°C, where short synthetic oligonucleotide primers bind specifically to complementary sequences flanking the target region; (3) Extension at 72°C, where a thermostable DNA polymerase (e.g., Taq polymerase isolated from Thermus aquaticus) synthesizes a new complementary strand by adding free deoxynucleotide triphosphates (dNTPs) in the 5' to 3' direction. After n cycles, 2^n copies of the target fragment are theoretically generated.",
+  "materials": [
+    "DNA Template (containing the target sequence of interest)",
+    "Forward Primer (anneals to the antisense strand)",
+    "Reverse Primer (anneals to the sense strand)",
+    "Taq DNA Polymerase (thermostable DNA polymerase enzyme)",
+    "dNTPs Master Mix (dATP, dCTP, dGTP, dTTP nucleotides)",
+    "10X PCR Reaction Buffer with MgCl2 (provides optimal pH and Mg2+ enzyme cofactor)",
+    "Nuclease-free sterile deionized water",
+    "Thin-walled 0.2 mL PCR tubes",
+    "Precision micropipettes (0.5–10 µL and 10–100 µL) with sterile aerosol filter tips",
+    "Automated Programmable Thermal Cycler (PCR Machine)"
+  ],
+  "procedure": [
+    "Thaw all PCR reagents on ice, vortex gently, and briefly centrifuge.",
+    "Label a sterile 0.2 mL thin-walled PCR tube and place it on a chilled tube rack.",
+    "Pipette 10X PCR Buffer and MgCl2 solution into the PCR tube.",
+    "Add the dNTP mixture containing equal concentrations of all four deoxynucleotides.",
+    "Add forward and reverse oligonucleotide primers specific to the target DNA region.",
+    "Add the template DNA containing the target sequence to be amplified.",
+    "Add thermostable Taq DNA Polymerase to catalyze strand synthesis.",
+    "Bring the reaction to final volume with nuclease-free water, gently mix by tapping, and close the cap.",
+    "Place the PCR tube into the Thermal Cycler block and close the heated lid.",
+    "Program thermal cycling: Initial denaturation (95°C for 3 min), followed by 30 cycles of [95°C for 30s, 55°C for 30s, 72°C for 60s], and final extension (72°C for 5 min).",
+    "Run the thermal cycler and observe exponential DNA copy generation.",
+    "Analyze the amplified PCR amplicons using agarose gel electrophoresis."
+  ],
+  "precautions": [
+    "Always keep Taq polymerase, dNTPs, and primers on ice; enzymes lose activity at room temperature.",
+    "Use filter barrier pipette tips and change tips between reagents to avoid cross-contamination.",
+    "Never open post-amplification PCR tubes in the pre-PCR reagent preparation area.",
+    "Ensure PCR tube caps are tightly sealed to prevent evaporation during high-temperature cycles.",
+    "Do not exceed the optimal annealing temperature, or primers will fail to bind."
+  ],
+  "learningObjectives": [
+    "Understand the biochemical principles of in vitro DNA replication.",
+    "Identify the components of a standard PCR master mix and their specific functions.",
+    "Explain the three fundamental thermal phases: Denaturation, Annealing, and Extension.",
+    "Calculate theoretical product yield across sequential thermal cycles (2^n)."
+  ],
+  "result": "The target DNA sequence is successfully amplified through 30 thermal cycles, producing over one billion identical copies of the specific DNA amplicon ready for gel analysis or sequencing.",
+  "quiz": [
+    {
+      "question": "Why is Taq polymerase specifically used in PCR instead of human or bacterial DNA polymerase?",
+      "options": [
+        "It is thermostable and resists denaturation at 95°C",
+        "It is much cheaper to manufacture in the laboratory",
+        "It synthesizes DNA in both 5' to 3' and 3' to 5' directions simultaneously",
+        "It does not require primers to start synthesis"
+      ],
+      "answer": "It is thermostable and resists denaturation at 95°C",
+      "explanation": "Taq polymerase is derived from the thermophilic bacterium Thermus aquaticus found in hot springs; it remains stable and enzymatically active even through repeated cycles at 95°C."
+    },
+    {
+      "question": "What occurs during the Denaturation step (typically 94–98°C)?",
+      "options": [
+        "Hydrogen bonds break, separating double-stranded DNA into single strands",
+        "Primers bind to the template DNA",
+        "Taq polymerase adds nucleotides to the 3' end",
+        "The PCR tube melts to release the reaction mixture"
+      ],
+      "answer": "Hydrogen bonds break, separating double-stranded DNA into single strands",
+      "explanation": "High thermal energy disrupts the hydrogen bonds between complementary adenine-thymine and guanine-cytosine base pairs, unwinding the double helix into single strands."
+    },
+    {
+      "question": "What is the purpose of primers in the PCR reaction?",
+      "options": [
+        "They provide a free 3'-OH group and define the exact target region to be amplified",
+        "They provide energy for the polymerase enzyme",
+        "They degrade unwanted host DNA",
+        "They stain the amplified DNA blue"
+      ],
+      "answer": "They provide a free 3'-OH group and define the exact target region to be amplified",
+      "explanation": "DNA polymerases cannot initiate synthesis de novo; they require a pre-existing 3'-OH group provided by a primer annealed specifically to the template boundary."
+    },
+    {
+      "question": "What is the optimal extension temperature for Taq DNA Polymerase?",
+      "options": [
+        "72°C",
+        "37°C",
+        "55°C",
+        "95°C"
+      ],
+      "answer": "72°C",
+      "explanation": "Taq polymerase exhibits maximum catalytic efficiency around 72°C, extending approximately 1,000 base pairs per minute."
+    },
+    {
+      "question": "How many copies of target DNA are theoretically produced from 1 template after 30 cycles?",
+      "options": [
+        "Over 1 billion copies (2^30)",
+        "30 copies",
+        "60 copies",
+        "1,000 copies"
+      ],
+      "answer": "Over 1 billion copies (2^30)",
+      "explanation": "Because DNA doubles with every complete thermal cycle, after n cycles the yield is 2^n. For n = 30, 2^30 = 1,073,741,824 copies."
+    }
+  ],
+  "ai_faqs": [
+    {
+      "question": "Why is Taq polymerase used?",
+      "answer": "Taq polymerase comes from the thermophilic bacterium Thermus aquaticus, allowing it to withstand high denaturation temperatures (95°C) without losing enzymatic activity."
+    },
+    {
+      "question": "How many copies of DNA are produced in PCR?",
+      "answer": "PCR amplifies DNA exponentially: each cycle doubles the DNA amount (2^n). After 30 cycles, one DNA molecule generates over 1 billion copies."
+    },
+    {
+      "question": "Why are primers necessary?",
+      "answer": "DNA polymerase cannot begin synthesizing a new strand from scratch—it needs a free 3'-OH end. Primers bind specifically to define the start and end of the amplification target."
+    },
+    {
+      "question": "What happens during the annealing step?",
+      "answer": "The reaction cools to 50–65°C so the forward and reverse primers can attach (anneal) via hydrogen bonding to their complementary sequences on the single-stranded DNA template."
+    },
+    {
+      "question": "Where is PCR used in real life?",
+      "answer": "PCR is ubiquitous in COVID-19/viral diagnostic testing, forensic criminal DNA profiling, paternity testing, genetic disease screening, and molecular cloning."
+    },
+    {
+      "question": "What role does MgCl2 play in PCR?",
+      "answer": "Magnesium ions (Mg2+) act as an essential cofactor for Taq DNA polymerase activity and stabilize primer-template duplexes."
+    }
+  ]
+}
